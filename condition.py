@@ -25,4 +25,4 @@ if num > 0:
 elif num == 0:
     print('Number is zero')
 else:
-    print('Number is negative')
+    print('Number is negative') 
