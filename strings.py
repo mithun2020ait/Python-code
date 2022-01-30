@@ -10,9 +10,24 @@
 
 #String Indexing
 
-fruit = "Apple"
+# fruit = "Apple"
 
-print(fruit[-1])
+# print(fruit[-1])
 
-my_char = fruit[2]
-print(my_char)
+# my_char = fruit[2]
+# print(my_char)
+
+#String concatination
+# a = "abc"
+# b = "def"
+
+# # c = a + b
+# c = a * 2
+# print(c)
+
+#For loop in a string
+
+a = "abc"
+
+for my_char in a:
+    print(my_char * 2, end=" ")
