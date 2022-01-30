@@ -5,5 +5,6 @@ my_list = [1, 2, 3, "Suvendu", 3.2, 'hello']
 my_list[3] = "mango"
 print(my_list)
 
+#Delete one index from list
 del my_list[0]
 print(my_list)
