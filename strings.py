@@ -26,8 +26,15 @@
 # print(c)
 
 #For loop in a string
-
+'''
 a = "abc"
 
 for my_char in a:
     print(my_char * 2, end=" ")
+'''
+
+txt = "The best things in life are free"
+if "free" not in txt:
+    print("No, 'expensive' is not  in the string.")
+else:
+    print("free is present in the string")
