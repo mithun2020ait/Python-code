@@ -30,5 +30,26 @@ def sum(a, b):
 
 print(sum(20, 25))
 
+#Arbitrary arguments
+def my_function(*kids):
+    print("The youngest child is " + kids[2])
+
+#my_function("Pallibi", "Suvendu", "XYZ")
+
+#Recursion
+def sum(n):
+    if(n == 1):
+        return 1
+    return n + sum(n-1)
+
+print(sum(5))
+
+def power(x, y):
+    if(y == 0):
+        return 1
+    return x * power(x, (y-1))
+
+print(power(2,3))
+
 
 
